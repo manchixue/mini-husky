@@ -1,0 +1,26 @@
+{
+  "name": "myhusky",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "myhusky": "./lib/bin.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commitlint": "^16.0.2",
+    "husky": "^7.0.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "execa": "^6.0.0",
+    "jest": "^27.4.7",
+    "shelljs": "^0.8.5"
+  }
+}
